@@ -1,0 +1,29 @@
+# Local data exports (keep folder placeholders)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# SQL Server backups and database files
+*.bak
+*.mdf
+*.ldf
+
+# Excel and Office lock/temp files
+~$*
+
+# Power BI project local settings and cache (.pbix files are kept)
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# Python
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
