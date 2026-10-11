@@ -13,10 +13,6 @@
 
 The inventory describes the database structure; it does not display every stored data value or answer a business question. The row counts come from SQL Server catalog metadata, so they are useful for exploration and can be checked with exact counts later if needed. Foreign keys reveal declared table relationships, but I still need to understand each table's grain and business meaning before joining data for analysis.
 
-### Brandt's connection
-
-This is the data-discovery step. For Brandt's, the equivalent would be learning which POS reports or exports are available, what fields they contain, and whether each row represents an order or an individual menu item before deciding what to analyze.
-
 ### Next step
 
 Inspect a focused set of sales tables, starting with `Sales.SalesOrderHeader` and `Sales.SalesOrderDetail`. Record their important columns, keys, relationships, row grain, and business meaning in `docs/data_dictionary.md` before writing business-analysis queries.
