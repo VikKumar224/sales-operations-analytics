@@ -5,7 +5,7 @@
 ### Work completed
 
 - Continued from the existing setup: SQL Server and SSMS are installed, `AdventureWorks2025` is restored, and the project repository is in place.
-- Corrected the README and interview review to reflect the current SQL Server/T-SQL project stack.
+- Updated the README to reflect the current SQL Server/T-SQL project stack.
 - Expanded `sql/01_database_inventory.sql` to report table row counts and column counts, column names and data types, nullability, and foreign-key relationships.
 - Ran the expanded inventory successfully in SSMS with `AdventureWorks2025` selected. The earlier table-name query returned 72 tables. The expanded script produced its three result sets.
 
