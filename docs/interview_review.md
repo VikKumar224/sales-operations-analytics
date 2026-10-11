@@ -12,12 +12,11 @@ To be completed.
 To be completed.
 
 ## Tools Used
-- Python
-- PostgreSQL
-- SQL
-- Excel
-- Power BI
+- Microsoft SQL Server
+- T-SQL
+- SQL Server Management Studio (SSMS)
 - Git / GitHub
+- Visual Studio Code
 
 ## Key Areas to Review
 - Business problem
